@@ -26,6 +26,12 @@
   width: 200px;
   height: 50px;
   font-size: 20px;
+  border: none;
+  background-color: white;
+  border-radius: 15px;
+  color: rgb(254, 203, 212);
+  font-weight: bold;
+  cursor: pointer;
 }
 .topButtons{
   display: flex;
@@ -36,4 +42,17 @@
   height: 40px;
   width: 100px;
   font-size: 15px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.pomodoroBtn:hover , .shortBreakBtn:hover ,.longBreakBtn:hover{
+  background-color: pink;
+  border-radius: 15px;
+}
+.active {
+  background-color: pink;
+  border-radius: 15px;
 }
