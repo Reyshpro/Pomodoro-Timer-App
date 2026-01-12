@@ -15,7 +15,8 @@
   width: 100%;
   max-width: 500px; 
   min-height: 250px;
-   background-color: rgb(254, 203, 212);
+  background-color: rgb(246, 200, 209);
+  border-radius: 15px;
 }
 .timerText{
   font-size: 100px;
@@ -29,7 +30,7 @@
   border: none;
   background-color: white;
   border-radius: 15px;
-  color: rgb(254, 203, 212);
+  color: rgb(250, 176, 189);
   font-weight: bold;
   cursor: pointer;
 }
@@ -49,10 +50,10 @@
   cursor: pointer;
 }
 .pomodoroBtn:hover , .shortBreakBtn:hover ,.longBreakBtn:hover{
-  background-color: pink;
+  background-color:  rgb(250, 176, 189);
   border-radius: 15px;
 }
 .active {
-  background-color: pink;
+  background-color:  rgb(250, 176, 189);
   border-radius: 15px;
 }
