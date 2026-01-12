@@ -1,7 +1,7 @@
 function Timer() {
   return (
     <div>
-      <h2>25:00</h2>
+      <h2 class="timerText">25:00</h2>
     </div>
   )
 }
