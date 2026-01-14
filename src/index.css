@@ -15,6 +15,18 @@ body {
 body {
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     sans-serif;
-    background-color: rgb(250, 176, 189);
-    color: rgb(255, 255, 255);
+  color: white;
+  transition: background-color 0.4s ease;
 }
+body.pomodoro {
+  background-color: rgb(250, 176, 189);
+}
+
+body.shortBreak {
+  background-color: #9FD6BF;
+}
+
+body.longBreak {
+  background-color: #B3ADE6;
+}
+

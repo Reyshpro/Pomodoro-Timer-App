@@ -10,13 +10,16 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 2px solid pink;
+  border: 2px solid none;
   padding: 2rem;
   width: 100%;
   max-width: 500px; 
   min-height: 250px;
   background-color: rgb(246, 200, 209);
   border-radius: 15px;
+  transition: background-color 0.4s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  width: 500px;
 }
 .timerText{
   font-size: 100px;
@@ -30,7 +33,6 @@
   border: none;
   background-color: white;
   border-radius: 15px;
-  color: rgb(250, 176, 189);
   font-weight: bold;
   cursor: pointer;
 }
@@ -57,3 +59,72 @@
   background-color:  rgb(250, 176, 189);
   border-radius: 15px;
 }
+.app.pomodoro {
+  background-color: #FECBD4;
+}
+
+.app.shortBreak {
+  background-color: #CFF4E0;
+}
+
+.app.longBreak {
+  background-color: #E6D9FF;
+}
+.app.pomodoro .startBtn {
+  color: rgb(250, 176, 189);
+}
+
+.app.shortBreak .startBtn {
+  color: #9FD6BF;
+}
+
+.app.longBreak .startBtn {
+  color: #B3ADE6;
+}
+.app.pomodoro .pomodoroBtn:hover,
+.app.pomodoro .shortBreakBtn:hover,
+.app.pomodoro .longBreakBtn:hover,
+.app.pomodoro .active {
+  background-color: rgb(250, 176, 189);
+}
+
+.app.shortBreak .pomodoroBtn:hover,
+.app.shortBreak .shortBreakBtn:hover,
+.app.shortBreak .longBreakBtn:hover,
+.app.shortBreak .active {
+  background-color: #9FD6BF;
+}
+
+.app.longBreak .pomodoroBtn:hover,
+.app.longBreak .shortBreakBtn:hover,
+.app.longBreak .longBreakBtn:hover,
+.app.longBreak .active {
+  background-color: #B3ADE6;
+}
+.pomodoroBtn,
+.shortBreakBtn,
+.longBreakBtn,
+.startBtn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.quoteText {
+  margin-top: 20px;
+  max-width: 500px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  font-style: italic;
+  transition: color 0.4s ease;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.85;
+  max-width: 500px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+
