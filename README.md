@@ -32,3 +32,4 @@ The app follows the classic Pomodoro technique to help users stay focused and ma
   <img src="screenshots/longBreak.png" alt="Long Break" width="250" />
 </div>
 
+https://roadmap.sh/projects/pomodoro-timer
